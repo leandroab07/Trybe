@@ -1,0 +1,4 @@
+frases aleatórias adicionadas para teste
+testando linux
+testando comandos shell
+frases trybe teste
