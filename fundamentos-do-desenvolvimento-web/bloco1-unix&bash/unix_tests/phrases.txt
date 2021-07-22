@@ -1,0 +1,4 @@
+Esse é um arquivo com frases para teste
+aqui vão algumas frases
+bloco 1 unix e bash
+exercícios parte 2
