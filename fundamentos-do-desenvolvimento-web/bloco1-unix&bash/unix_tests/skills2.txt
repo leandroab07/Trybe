@@ -1,7 +1,8 @@
-O que eu vou aprender na Trybe:
-
-- Unix
-- Bash
-- Git
-- HTML
-- CSS
+Internet
+Unix
+Bash
+Git
+Github
+HTML
+CSS
+Javascript

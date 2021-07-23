@@ -1,4 +1,4 @@
-frases aleatórias adicionadas para teste
-testando linux
-testando comandos shell
-frases trybe teste
+Esse é um arquivo com frases para teste
+aqui vão algumas frases
+bloco 1 unix e bash
+exercícios parte 2

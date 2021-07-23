@@ -1,5 +1,0 @@
-  141  head -n 3 history
-  142  tail -3 top_skills.txt
-  143  tail -3 skills2.txt
-  144  tail -n 3 skills2.txt
-  145  history | head -n 3
