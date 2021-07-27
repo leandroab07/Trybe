@@ -1,0 +1,14 @@
+#conteudo {
+    display: inline-block;
+    width: 50%;
+}
+
+img {
+    width: 400px;
+}
+
+#video {
+    display: inline-block;
+    width: 40%;
+    float: right;
+}
