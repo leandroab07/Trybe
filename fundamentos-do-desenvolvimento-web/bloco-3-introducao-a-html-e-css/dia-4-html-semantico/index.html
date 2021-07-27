@@ -1,82 +1,85 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ranking</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Soco a 80km/h: Conheça o Stomatopoda</title>
     <style>
-      body {
-        text-align: center;
-      }
-      h1 {
-        text-align: center;
-      }
+        #conteudo {
+            display: inline-block;
+            width: 50%;
+        }
 
-      .first {
-        background-color: rgb(235, 200, 84);
-        font-size: 20px;
-        height: 50px;
-        text-align: center;
-        width: 200px;
-        margin: 0 auto;
-      }
+        img {
+            width: 400px;
+        }
 
-      .second {
-        background-color: rgb(219, 219, 219);
-        font-size: 20px;
-        height: 50px;
-        text-align: center;
-        width: 300px;
-      }
-
-      .third {
-        background-color: rgb(170, 142, 106);
-        font-size: 20px;
-        height: 50px;
-        text-align: center;
-        width: 300px;
-      }
-
-      li {
-        list-style-type: none;
-      }
-
-      .segtercli li {
-        display: inline-block;
-      }
-
-
+        #video {
+            display: inline-block;
+            width: 40%;
+            float: right;
+        }
     </style>
   </head>
   <body>
+    <!--insira os elementos aqui-->
     <header>
-      <h1>Hackathon Results</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Página Inicial</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
     </header>
-    <section>
-      <ul>
-        <li class="first">1º - Equipe 1</li>
-        <div class="segtercli">
-            <li class="second">2º - Equipe 2</li>
-            <li class="third">3º - Equipe 3</li>
-        </div>
-      </ul>
-    </section>
-    <section>
-      <h3>Premiação Primeiro Lugar:</h3>
-      <ul>
-        <li>| R$ 1000,00 por integrante da equipe |</li>
-        <li>| Bootcamp de 2 meses com possibilidade de contratação |</li>
-      </ul>
-      <h3>Premiação Segundo Lugar:</h3>
-      <ul>
-        <li>| R$ 600,00 por integrante da equipe |</li>
-        <li>| Participação no processo seletivo para o Bootcamp |</li>
-      </ul>
-      <h3>Premiação Terceiro Lugar:</h3>
-      <ul>
-        <li>| R$ 300,00 por integrante da equipe |</li>
-        <li>| Participação no processo seletivo para o Bootcamp |</li>
-      </ul>
-    </section>
+
+    <main>
+        <section id="conteudo">
+            <h1>Fatos sobre o Stomatopoda</h1>
+            <article>
+                <h2>Taxonomia</h2>
+                <ul>
+                    <li>Reino: Animalia</li>
+                    <li>Filo: Crustacea</li>
+                    <li>Classe:	Malacostraca</li>
+                    <li>Subclasse: Hoplocarida</li>
+                    <li>Ordem: Stomatopoda</li>
+                    <li>Família: Odontodactylidae</li>
+                    <li>Género:	Odontodactylus</li>
+                    <li>Espécie: <em>Odontodactylus scyllarus</em></li>
+                </ul>
+                <img src="stomatopoda.jpg" alt="Odontodactylus scyllarus, também conhecida como lagosta boxeadora.">
+            </article>
+
+            <article>
+                <h2>Olhos complexos e poderosos</h2>
+                <p>Os olhos dos Stomatopoda , assim como o de outros crustáceos e insetos, é formado por várias subunidades denominadas <strong>omatídeos</strong>. Esse sistema de olho composto permite uma detecção rápida de movimento, importante, principalmente, para a <strong>fuga</strong> desses animais. Além disso, no caso de alguns crustáceos que habitam o fundo dos oceanos, como os Stomatopoda , esses olhos possuem um sistema para <strong>captar melhor a luz</strong> em ambientes com pouca luz. Outro aspecto importante desses olhos são a alta quantidade de <strong>fotorreceptores</strong>. São de 12 a 16 tipos de células que provavelmente tornam a visão das cores nesses animais bem diferente dos demais</p>
+                <img src="omatideos.jpeg" alt="Vários omatídeos, estruturas que formam os olhos compostos de crustáceos e insetos.">
+            </article>
+
+            <article>
+                <h2>Soco poderoso</h2>
+                <p>Os estomatópodes formam uma ordem de animais com diversas peculiaridades interessantes. Uma das principais é o seu poderoso soco que, devido a sua alta velocidade, é considerado um dos "golpes" mais fortes entre os animais. Seus socos podem chegar à <strong>80 km/h</strong> e são usados para abater as presas.</p>
+                <img src="boxe.png" alt="Um par de luva de boxe.">
+            </article>
+        </section>
+
+        <aside id="video">
+            <h2>Assista:</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/E0Li1k5hGBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </aside>
+
+        <section>
+            <h2>Para saber mais, consulte as fontes usadas como base para as curiosidades aqui escritas:</h2>
+            <ul>
+                <li><a href="https://www.nationalgeographic.com/science/article/natures-most-amazing-eyes-just-got-a-bit-weirder" target="_blank">National Geographic</a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/Stomatopoda" target="_blank">Wikipedia</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Conteúdo compilado por Leandro Araújo Basílio, 2021.</h3>
+    </footer>
   </body>
 </html>
