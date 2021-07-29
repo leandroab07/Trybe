@@ -27,3 +27,23 @@ else if (notaCandidato1 < 80 && notaCandidato1 >= 70) {
 else {
     console.log('Você foi reprovado(a)!');
 }
+
+let condicaoCandidato1 = 'lista';
+
+switch (condicaoCandidato1) {
+    case 'aprovado':
+        console.log('Parabéns, você foi aprovado(a)!');
+        break;
+
+    case 'lista':
+        console.log('Você está na nossa lista de espera');
+        break;
+
+    case 'reprovado':
+        console.log('Você foi reprovado(a)!');
+        break;
+
+    default:
+        console.log('Não se aplica.')
+        break;
+}
